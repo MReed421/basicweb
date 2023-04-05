@@ -42,7 +42,7 @@ nav li a {
     height: 25px;
     line-height: 25px;
 
-    font-family: "Comic Sans MS", cursive;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
     font-size: 1.4em;
     font-weight: bold;
     color: blue;
