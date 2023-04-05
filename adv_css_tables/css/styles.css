@@ -164,3 +164,7 @@ h1, h2, h3 {
 iframe {
     border: none;
 }
+
+ul li {
+    margin-bottom: 20px;
+}
