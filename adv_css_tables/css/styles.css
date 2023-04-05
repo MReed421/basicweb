@@ -161,9 +161,9 @@ h1, h2, h3 {
     text-align: center;
 }
 
-iframe {
-    border: 0;
-}
+iframe[frameborder] {
+    border: none;
+  }  
 
 ul li {
     margin-bottom: 20px;
