@@ -145,8 +145,6 @@ table {
 td, tr{
     border: 2px solid pink;
     box-shadow: 0 0 10px yellow;
-    margin: 20px;
-    padding: 20px;
     border-radius: 5%;
 }
 
