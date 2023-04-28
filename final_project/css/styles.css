@@ -1,0 +1,261 @@
+body {
+    background-color: deeppink;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10%;
+}
+
+#container {
+    background-color: palevioletred;
+    border-radius: 10%;
+    box-shadow: 0 0 40px yellow;
+    width: 75%;
+    margin: 20px auto;
+}
+
+nav {
+    background-color:pink;
+    border-radius: 10%;
+    padding: 2px 0;
+    box-shadow: 0 0 40px yellow;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    position: relative;
+    background-color: aqua;
+    padding: 6px;
+    border-radius: 100%;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+    border: 3px solid yellow;
+    margin: 0 10px;
+}
+
+nav li a:hover {
+    background-color: yellow;
+    border: 3px solid aqua;
+    text-shadow: 1px 1px 0 red, 2px 2px 0 blue, 3px 3px 0 yellow, 4px 4px 0 red, 5px 5px 0 blue, 6px 6px 0 yellow, 7px 7px 0 red;
+    animation: wiggle 0.5s ease-in-out infinite;
+    cursor: crosshair;
+  }
+  
+  @keyframes wiggle {
+    0% {
+      font-size: 16px;
+    }
+    25% {
+      font-size: 18px;
+    }
+    50% {
+      font-size: 16px;
+    }
+    75% {
+      font-size: 14px;
+    }
+    100% {
+      font-size: 16px;
+    }
+  }
+
+  .title {
+    animation: fade 2s ease-in-out infinite;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+main {
+    padding: 10px;
+}
+
+#lower_area {
+    display: block;
+}
+
+.col {
+    border: 2px solid pink;
+    box-shadow: 0 0 5px yellow;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+footer {
+    background-color: pink;
+    text-align: center;
+    padding: 40px 0;
+    color: aqua;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 0 10px yellow;
+}
+
+.button {
+    display: block;
+    position: relative;
+    background-color: aqua;
+    padding: 12px;
+    border-radius: 100%;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    font-family: "Comic Sans MS", cursive;
+    font-size: 1em;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+    border: 3px solid yellow;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: yellow;
+    border: 3px solid aqua;
+    text-shadow: 1px 1px 0 red, 2px 2px 0 blue, 3px 3px 0 yellow, 4px 4px 0 red, 5px 5px 0 blue, 6px 6px 0 yellow, 7px 7px 0 red;
+    animation: wiggle 0.5s ease-in-out infinite;
+    cursor: crosshair;
+}
+
+table {
+    border: 2px solid pink;
+    box-shadow: 0 0 10px yellow;
+}
+
+td, tr{
+    border: 2px solid pink;
+    box-shadow: 0 0 10px yellow;
+    border-radius: 5%;
+}
+
+h1, h2, h3 {
+    color: black;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0 red, 2px 2px 0 blue, 3px 3px 0 yellow, 4px 4px 0 red, 5px 5px 0 blue, 6px 6px 0 yellow, 7px 7px 0 red;
+
+    display: block;
+    position: relative;
+    background-color: pink;
+    border-radius: 100%;
+
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        width: 130px;
+    }
+
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid pink;
+        box-shadow: 0 0 10px yellow;
+        border-radius: 10%;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    .col img {
+        width: 75%;
+    }
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .single_page {
+        width: 100%;
+    }
+
+    table img{
+        width: 100%;
+    }
+}
+
+@media (mind-width: 1024px) {
+    #container{
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #lower_area {
+        display: flex;
+    }
+
+    .col {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    table img{
+        width: 100%;
+    }
+    #popup {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 1px solid black;
+        padding: 10px;
+      }
+      
+}
