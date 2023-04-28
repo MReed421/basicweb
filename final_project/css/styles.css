@@ -1,5 +1,6 @@
 body {
     background-color: deeppink;
+    font-family: Lato;
 }
 
 img {
@@ -44,7 +45,7 @@ nav li a {
     height: 25px;
     line-height: 25px;
 
-    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-family: Lato;
     font-size: 1.4em;
     font-weight: bold;
     color: blue;
@@ -136,7 +137,7 @@ footer {
     line-height: 25px;
     text-align: center;
 
-    font-family: "Comic Sans MS", cursive;
+    font-family: Lato;
     font-size: 1em;
     font-weight: bold;
     color: blue;
@@ -166,7 +167,7 @@ td, tr{
 
 h1, h2, h3 {
     color: black;
-    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-family: Lato;
     text-shadow: 1px 1px 0 red, 2px 2px 0 blue, 3px 3px 0 yellow, 4px 4px 0 red, 5px 5px 0 blue, 6px 6px 0 yellow, 7px 7px 0 red;
 
     display: block;
